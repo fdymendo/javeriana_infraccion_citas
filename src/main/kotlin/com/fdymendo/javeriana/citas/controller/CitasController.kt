@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*
 
 @CrossOrigin
 @RestController
-@RequestMapping("/citas/v1")
+@RequestMapping("/agentamiento/v1")
 class CitasController(val iCitasService: ICitasService) {
 
     @PostMapping
