@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @CrossOrigin
 @RestController
-@RequestMapping("/agentamiento")
+@RequestMapping("/agendamiento")
 class OKController {
     @GetMapping
     fun saveInfraction() = GenericMethods.responseOk()
