@@ -39,7 +39,7 @@
         ],
         "mountPoints": [],
         "volumesFrom": [],
-        "image": "006078069859.dkr.ecr.us-east-1.amazonaws.com/infracciones-eaesof:agendamiento",
+        "image": "006078069859.dkr.ecr.us-east-1.amazonaws.com/agendamiento-eaesof:agendamiento",
         "dependsOn": [
           {
             "containerName": "envoy",
